@@ -91,7 +91,6 @@ public class Game {
         System.out.println("domicile : " + this.firstTeam);
         System.out.println("visiteur : "+this.secondTeam);
 
-       //System.out.println(contenu);
     }
 
     private String substringRegex(String regex){
@@ -131,4 +130,47 @@ public class Game {
         return "not found";
     }
 
+    public String getDate() {
+        return date;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public String getCompetition() {
+        return competition;
+    }
+
+    public boolean isFirstRef() {
+        return isFirstRef;
+    }
+
+    public String getSecondRefName() {
+        return secondRefName;
+    }
+
+    public String getSecondRefPhone() {
+        return secondRefPhone;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public String getFirstTeam() {
+        return firstTeam;
+    }
+
+    public String getSecondTeam() {
+        return secondTeam;
+    }
+
+    public float getMoney() {
+        return money;
+    }
+
+    public float getDistance() {
+        return distance;
+    }
 }
